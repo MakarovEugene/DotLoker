@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					046F03201CE11F94005DEA27 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VGHJU7Z2BP;
 					};
 					046F03381CE11F94005DEA27 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -407,10 +408,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DotLoker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Eug-Rus.DotLoker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -418,10 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DotLoker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Eug-Rus.DotLoker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -492,6 +499,7 @@
 				046F034F1CE11F94005DEA27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046F03501CE11F94005DEA27 /* Build configuration list for PBXNativeTarget "DotLokerTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +508,7 @@
 				046F03521CE11F94005DEA27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046F03531CE11F94005DEA27 /* Build configuration list for PBXNativeTarget "DotLokerUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +517,7 @@
 				046F03551CE11F94005DEA27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
